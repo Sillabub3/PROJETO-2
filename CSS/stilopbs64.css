@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+body{
+    color: white;
+    background-image: url(/IMG/gif-site.gif);
+    background-position: 100%;
+    background-repeat: repeat;
+    background-size: 100%;
+    margin-bottom: 1px;
+    font-family: 'Fredoka One', cursive;
+}
+label {
+    font-size: large;
+}
+  
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 2rem;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 30px;
+    border: solid 2px black;
+    border-radius: 15px;
+    box-shadow: 0 0 0.5rem black;
+    gap: 10px;
+    gap: 10px 20px;
+    row-gap: 10px;
+    column-gap: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+  
+.input-box {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+  
+.input-box label {
+    width: 15rem;
+    text-align: left;
+    font-size: larger;
+}
+  
+.input-box input {
+    width: 15rem;
+    height: 2rem;
+    font-size: larger;
+}
+  
+.input-box select {
+    width: 15rem;
+    height: 2rem;
+    font-size: larger;
+}
+  
+.container button {
+    width: 15rem;
+    height: 2rem;
+    font-size: larger;
+}
+  
+.input-box .result {
+    width: 15rem;
+    height: 4rem;
+    font-size: larger;
+}
+#resultado:disabled {
+    background-color: white !important;
+    color: black;
+}
